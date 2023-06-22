@@ -1,10 +1,10 @@
-const head = function (array) {
-  if (array.length === 0) {
-    return undefined;
+const head = function(theArray) {
+  if (theArray === undefined) {
+    return;
+  } else if (theArray.length === 0) {
+    return;
   }
-  return array[0];
+  return theArray[0];
 };
 
-
-assertEqual(head([5, 6, 7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = head;
