@@ -1,3 +1,5 @@
+const assertArrayEqual = require('./assertArrayEqual');
+
 const middle = function(arr) {
   let result = [];
   if (arr === undefined || arr.length === 0) {

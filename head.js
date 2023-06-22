@@ -7,4 +7,6 @@ const head = function(theArray) {
   return theArray[0];
 };
 
+const assertEqual = require('./assertEqual');
+
 module.exports = head;
